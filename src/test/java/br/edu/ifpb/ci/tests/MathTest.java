@@ -19,6 +19,6 @@ public class MathTest {
 	@Test
 	public void sumSucessTest(){
 		Integer result = math.sum(10, 10);
-		assertThat(Integer.valueOf(20), equalTo(result));
+		assertThat(Integer.valueOf(15), equalTo(result));
 	}
 }
